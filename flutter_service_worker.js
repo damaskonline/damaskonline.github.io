@@ -7,7 +7,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "6df45673cf35c6526670dc3c9c7921f2",
+"assets/fonts/MaterialIcons-Regular.otf": "1e2b2641805903c68bf055bd3bd6565d",
 "assets/NOTICES": "282c244fa808980186fac4d54ba4cde1",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
@@ -27,9 +27,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a0358f00255402da1fce3b25c05db852",
-"/": "a0358f00255402da1fce3b25c05db852",
-"main.dart.js": "6fcfd2147b413516c02c8aba81b61e4d",
+"index.html": "8522dc62a6567c92ce8a11588c5b5d1a",
+"/": "8522dc62a6567c92ce8a11588c5b5d1a",
+"main.dart.js": "24758891c814c7ecc71d5dbdae4c423f",
 "manifest.json": "273822b5b75f6d56a26cb50667a36a4f",
 "version.json": "965a96c24e9dbc68742cc1a78cd8665f"};
 // The application shell files that are downloaded before a service worker can
