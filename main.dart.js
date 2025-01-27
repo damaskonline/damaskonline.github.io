@@ -56865,43 +56865,46 @@ break
 case 1:return A.B(q,r)}})
 return A.C($async$uZ,r)},
 zm(a,b,c,d,e,f,g){return this.a4f(a,b,c,d,e,f,g)},
-a4f(a,b,c,d,a0,a1,a2){var s=0,r=A.D(t.VF),q,p=this,o,n,m,l,k,j,i,h,g,f,e
-var $async$zm=A.E(function(a3,a4){if(a3===1)return A.A(a4,r)
-while(true)switch(s){case 0:h={}
-g=A.a([],t.gf)
-f=A.b1P(!0,null,B.aRc,!1,B.GL)
-e=new A.Qm(f,g)
-g=!1
-if(g){g=t.Xn
-o=A.q(t.N,g)
+a4f(a,b,c,a0,a1,a2,a3){var s=0,r=A.D(t.VF),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
+var $async$zm=A.E(function(a4,a5){if(a4===1)return A.A(a5,r)
+while(true)switch(s){case 0:g={}
+f=A.a([],t.gf)
+e=A.b1P(!0,null,B.aRc,!1,B.GL)
+d=new A.Qm(e,f)
+f=!1
+if(f){f=t.Xn
+o=A.q(t.N,f)
 o.l(0,"/Producer",new A.kI(A.aPU("https://github.com/DavBfr/dart_pdf"),B.q9,!0))
 n=new A.aM(Date.now(),!1).a3w()
 o.l(0,"/CreationDate",new A.kI(A.aPU("D:"+B.t.dc(B.l.j(A.b7(n)),4,"0")+B.t.dc(B.l.j(A.b9(n)),2,"0")+B.t.dc(B.l.j(A.cj(n)),2,"0")+B.t.dc(B.l.j(A.hL(n)),2,"0")+B.t.dc(B.l.j(A.Gd(n)),2,"0")+B.t.dc(B.l.j(A.Ge(n)),2,"0")+"Z"),B.q9,!0))
-g=A.m2(o,g)
-o=f.b++
-m=f.e
+f=A.m2(o,f)
+o=e.b++
+m=e.e
 m===$&&A.b()
-f.c.G(0,new A.FH(f,o,0,g,m,A.a([],t.s),null,null,0))}h.a=h.b=0
-l=A.a([],t.H7)
-for(g=a2.length,k=0;f=a2.length,k<f;a2.length===g||(0,A.F)(a2),++k){j=a2[k]
-if(J.d(J.k(j,"type"),"Discount/Advance")){l.push(j)
-B.m.D(a2,j)}}for(k=0;k<a2.length;a2.length===f||(0,A.F)(a2),++k){j=a2[k]
-if(J.d(J.k(j,"type"),"Delivery Fee")){l.push(j)
-B.m.D(a2,j)}}B.m.O(a2,l)
-for(g=a2.length,k=0;k<a2.length;a2.length===g||(0,A.F)(a2),++k){j=a2[k]
-f=J.V(j)
-o=J.d(f.h(j,"type"),"Discount/Advance")
-m=h.b
-if(o)h.b=m-A.e_(f.h(j,"totalAmount"),null)
-else{h.b=m+A.e_(f.h(j,"totalAmount"),null)
-if(J.d(f.h(j,"type"),"Product"))h.a=h.a+A.e_(f.h(j,"quantity"),null)}}s=3
-return A.G(p.uZ(d+";"+a+";"+h.b),$async$zm)
-case 3:i=a4
-g=new A.aln(B.aRa,B.aPo,null,null,!1,null)
-g=new A.Tq(g,new A.alM(h,p,d,a0,a,b,i,c,a2,a1))
-g.c=A.b1Z(e.a,null,g.gmb())
-e.c.push(g)
-q=e
+e.c.G(0,new A.FH(e,o,0,f,m,A.a([],t.s),null,null,0))}g.a=g.b=0
+f=t.H7
+l=A.a([],f)
+k=A.a([],f)
+for(f=a3.length,j=0;e=a3.length,j<e;a3.length===f||(0,A.F)(a3),++j){i=a3[j]
+if(J.d(J.k(i,"type"),"Product"))l.push(i)}for(j=0;f=a3.length,j<f;a3.length===e||(0,A.F)(a3),++j){i=a3[j]
+if(J.d(J.k(i,"type"),"Delivery Fee"))k.push(i)}for(j=0;j<a3.length;a3.length===f||(0,A.F)(a3),++j){i=a3[j]
+if(J.d(J.k(i,"type"),"Discount/Advance"))k.push(i)}B.m.P(a3)
+B.m.O(a3,l)
+B.m.O(a3,k)
+for(f=a3.length,j=0;j<a3.length;a3.length===f||(0,A.F)(a3),++j){i=a3[j]
+e=J.V(i)
+o=J.d(e.h(i,"type"),"Discount/Advance")
+m=g.b
+if(o)g.b=m-A.e_(e.h(i,"totalAmount"),null)
+else{g.b=m+A.e_(e.h(i,"totalAmount"),null)
+if(J.d(e.h(i,"type"),"Product"))g.a=g.a+A.e_(e.h(i,"quantity"),null)}}s=3
+return A.G(p.uZ(a0+";"+a+";"+g.b),$async$zm)
+case 3:h=a5
+f=new A.aln(B.aRa,B.aPo,null,null,!1,null)
+f=new A.Tq(f,new A.alM(g,p,a0,a1,a,b,h,c,a3,a2))
+f.c=A.b1Z(d.a,null,f.gmb())
+d.c.push(f)
+q=d
 s=1
 break
 case 1:return A.B(q,r)}})
